@@ -1,4 +1,4 @@
-import Utilities from "../../utilities/utilities";
+import Utilities from "../../utilities/Utilities";
 
 export default class Exercise1 implements IExercise {
     constructor() { }

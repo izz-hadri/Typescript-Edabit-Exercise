@@ -1,4 +1,4 @@
-import Utilities from "../../utilities/utilities";
+import Utilities from "../../utilities/Utilities";
 
 class Person {
     name: string;

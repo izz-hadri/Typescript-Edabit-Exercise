@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const utilities_1 = __importDefault(require("../../utilities/utilities"));
+const Utilities_1 = __importDefault(require("../../utilities/Utilities"));
 class Person {
     constructor(name, age) {
         this.name = name;
@@ -24,7 +24,7 @@ class Person {
 class Exercise4 {
     constructor() { }
     getQuestion() {
-        utilities_1.default.displayQuestion(4, "Create a method in the Person class which returns how another person's age compares. Given the instances p1, p2 and p3, which will be initialised with the attributes name and age, return a sentence in the following format:\n\n{other person name} is {older than / younger than / the same age as} me.\n");
+        Utilities_1.default.displayQuestion(4, "Create a method in the Person class which returns how another person's age compares. Given the instances p1, p2 and p3, which will be initialised with the attributes name and age, return a sentence in the following format:\n\n{other person name} is {older than / younger than / the same age as} me.\n");
     }
     getAnswer() {
         let p1 = new Person("Samuel", 24);
