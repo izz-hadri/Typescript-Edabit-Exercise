@@ -26,7 +26,7 @@ export default class Exercise5 implements IExercise {
         console.log(`intWithinBounds(${number}, ${lower}, ${upper}) => ${isWithinBounds}`);
     }
 
-    intWithinBounds(number: number, lower: number, upper: number): boolean {
+    private intWithinBounds(number: number, lower: number, upper: number): boolean {
         if (!Number.isInteger(number)) {
             return false;
         }
