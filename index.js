@@ -6,11 +6,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Exercise1_1 = __importDefault(require("./dist/exercises/exercise1/Exercise1"));
 const Exercise2_1 = __importDefault(require("./dist/exercises/exercise2/Exercise2"));
 const Exercise3_1 = __importDefault(require("./dist/exercises/exercise3/Exercise3"));
+const Exercise4_1 = __importDefault(require("./dist/exercises/exercise4/Exercise4"));
 class Main {
     constructor() {
         this.getExercise1();
         this.getExercise2();
         this.getExercise3();
+        this.getExercise4();
         console.log("\n\n");
     }
     getExercise1() {
@@ -25,6 +27,11 @@ class Main {
     }
     getExercise3() {
         let exercise = new Exercise3_1.default();
+        exercise.getQuestion();
+        exercise.getAnswer();
+    }
+    getExercise4() {
+        let exercise = new Exercise4_1.default();
         exercise.getQuestion();
         exercise.getAnswer();
     }

@@ -7,8 +7,7 @@ const utilities_1 = __importDefault(require("../../utilities/utilities"));
 class Exercise2 {
     constructor() { }
     getQuestion() {
-        utilities_1.default.displayQuestionNumber(2);
-        console.log("Write a function that takes the base and height of a triangle and return its area.");
+        utilities_1.default.displayQuestion(2, "Write a function that takes the base and height of a triangle and return its area.");
     }
     getAnswer() {
         let base = utilities_1.default.getRandomNumber();

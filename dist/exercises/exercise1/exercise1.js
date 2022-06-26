@@ -7,8 +7,7 @@ const utilities_1 = __importDefault(require("../../utilities/utilities"));
 class Exercise1 {
     constructor() { }
     getQuestion() {
-        utilities_1.default.displayQuestionNumber(1);
-        console.log("Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.");
+        utilities_1.default.displayQuestion(1, "Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.");
     }
     getAnswer() {
         let number1 = utilities_1.default.getRandomNumber();

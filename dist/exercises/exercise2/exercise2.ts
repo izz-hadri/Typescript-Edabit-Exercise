@@ -4,8 +4,7 @@ export default class Exercise2 implements IExercise {
     constructor() { }
 
     getQuestion(): void {
-        Utilities.displayQuestionNumber(2);
-        console.log("Write a function that takes the base and height of a triangle and return its area.");
+        Utilities.displayQuestion(2, "Write a function that takes the base and height of a triangle and return its area.");
     }
 
     getAnswer(): void {

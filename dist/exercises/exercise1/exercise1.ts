@@ -4,8 +4,7 @@ export default class Exercise1 implements IExercise {
     constructor() { }
 
     getQuestion(): void {
-        Utilities.displayQuestionNumber(1);
-        console.log("Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.");
+        Utilities.displayQuestion(1, "Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.");
     }
 
     getAnswer(): void {

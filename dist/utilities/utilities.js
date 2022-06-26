@@ -8,5 +8,9 @@ class Utilities {
     static displayQuestionNumber(number) {
         console.log(`\n\n----- Question ${number}`);
     }
+    static displayQuestion(number, question) {
+        this.displayQuestionNumber(number);
+        console.log(question);
+    }
 }
 exports.default = Utilities;
