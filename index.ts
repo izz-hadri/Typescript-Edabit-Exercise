@@ -1,6 +1,6 @@
-import Exercise1 from "./dist/exercises/exercise1/exercise1";
-import Exercise2 from "./dist/exercises/exercise2/exercise2";
-import Exercise3 from "./dist/exercises/exercise3/exercise3";
+import Exercise1 from "./dist/exercises/exercise1/Exercise1";
+import Exercise2 from "./dist/exercises/exercise2/Exercise2";
+import Exercise3 from "./dist/exercises/exercise3/Exercise3";
 
 export default class Main {
     constructor() {

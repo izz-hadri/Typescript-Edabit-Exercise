@@ -1,6 +1,6 @@
 import Utilities from "../../utilities/utilities";
 
-export default class Exercise3 {
+export default class Exercise3 implements IExercise {
     constructor() { }
 
     getQuestion(): void {
