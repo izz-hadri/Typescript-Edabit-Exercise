@@ -2,6 +2,7 @@ import Exercise1 from "./dist/exercises/exercise1/Exercise1";
 import Exercise2 from "./dist/exercises/exercise2/Exercise2";
 import Exercise3 from "./dist/exercises/exercise3/Exercise3";
 import Exercise4 from "./dist/exercises/exercise4/Exercise4";
+import Exercise5 from "./dist/exercises/exercise5/Exercise5";
 
 export default class Main {
     constructor() {
@@ -9,6 +10,7 @@ export default class Main {
         this.getExercise2();
         this.getExercise3();
         this.getExercise4();
+        this.getExercise5();
 
         console.log("\n\n");
     }
@@ -36,4 +38,12 @@ export default class Main {
         exercise.getQuestion();
         exercise.getAnswer();
     }
+
+    getExercise5(): void {
+        let exercise = new Exercise5();
+        exercise.getQuestion();
+        exercise.getAnswer();
+    }
+
+
 } new Main();

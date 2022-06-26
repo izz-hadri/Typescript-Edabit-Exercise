@@ -7,12 +7,14 @@ const Exercise1_1 = __importDefault(require("./dist/exercises/exercise1/Exercise
 const Exercise2_1 = __importDefault(require("./dist/exercises/exercise2/Exercise2"));
 const Exercise3_1 = __importDefault(require("./dist/exercises/exercise3/Exercise3"));
 const Exercise4_1 = __importDefault(require("./dist/exercises/exercise4/Exercise4"));
+const Exercise5_1 = __importDefault(require("./dist/exercises/exercise5/Exercise5"));
 class Main {
     constructor() {
         this.getExercise1();
         this.getExercise2();
         this.getExercise3();
         this.getExercise4();
+        this.getExercise5();
         console.log("\n\n");
     }
     getExercise1() {
@@ -32,6 +34,11 @@ class Main {
     }
     getExercise4() {
         let exercise = new Exercise4_1.default();
+        exercise.getQuestion();
+        exercise.getAnswer();
+    }
+    getExercise5() {
+        let exercise = new Exercise5_1.default();
         exercise.getQuestion();
         exercise.getAnswer();
     }
