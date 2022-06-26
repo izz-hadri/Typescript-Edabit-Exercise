@@ -4,17 +4,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const utilities_1 = __importDefault(require("../../utilities/utilities"));
-class Exercise1 {
+class Exercise3 {
     constructor() { }
     getQuestion() {
-        utilities_1.default.displayQuestionNumber(1);
-        console.log("Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.");
+        utilities_1.default.displayQuestionNumber(3);
+        console.log("Create a function that returns true when num1 is equal to num2; otherwise return false.");
     }
     getAnswer() {
         let number1 = utilities_1.default.getRandomNumber();
         let number2 = utilities_1.default.getRandomNumber();
-        let result = number1 + number2 < 100;
-        console.log(`${number1} + ${number2} = ${number1 + number2} => ${result}`);
+        let isSame = this.isSameNum(number1, number2);
+        console.log(`isSameNum(${number1}, ${number2}) => ${isSame}`);
+    }
+    isSameNum(number1, number2) {
+        return number1 === number2;
     }
 }
-exports.default = Exercise1;
+exports.default = Exercise3;
